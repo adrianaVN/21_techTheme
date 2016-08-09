@@ -65,11 +65,144 @@ header{
 	border-style: none;
 	padding: 2%;
 }
-@font-face{
-	font-family: 'Montserrat', sans-serif;
-	src:<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>;
-
+/* adry
+ */
+/* MÁRGENES (iris)*/
+.mg-t{/*Margin top de iconos y texto*/
+	margin-top: 3%;	
 }
-body{
-	font-family: Montserrat;
+.mg-l{
+	margin-left: 5%;
+}
+.mg-left{
+	margin-left: 12%;
+}
+.h3{
+	margin-left: 20%;
+}
+.centrado{
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+/* IMAGENES (iris) */
+.laptop{
+	height:50%;
+	width:100%;
+}
+.fotos-grid{
+	width: 350px;
+	height: 200px;
+}
+.formulario{
+	background-image: url("../img/background/contactus.jpg");
+	height:100%;
+	width:100%;
+	color:white;
+}
+/* LETRAS (iris)*/
+.letra{
+	font-size:0.8em;
+}
+.more{	
+	font-size:2em;
+}
+.justify{
+	text-align:justify;
+}
+/* BOTONES (iris)*/
+.boton-blue{
+	height:2em;
+	width: 5em;
+	background-color: #086A87;/*color azul turquesa*/
+	padding:1%;
+	color:white;
+}
+.boton-white{
+	height:2em;
+	width: 5em;
+	background-color: white;
+	padding:1%;
+	color:black;
+}
+.boton-gris-oscuro{
+	height:2em;
+	width: 5em;
+	background-color: #585858;/*color gris oscuro*/
+	padding:0.5%;
+	color:white;
+	margin-left:29.3em;
+}
+.purchase{
+	height:2em;
+	width: 5em;
+	background-color: #585858;/*color gris oscuro*/
+	padding:5%;
+	color:white;	
+}
+.submit{
+	height:3em;
+	width:8em;
+	background-color:#28B9D8;/*color azul claro*/
+	padding:1%;
+	color:white;
+	margin-left: 20%;
+}
+/* FONDOS (iris)*/
+.bg-grey{/*Back gris de portafolio*/
+	background-color: rgb(244, 244, 244);
+	width:100%;
+	height:500%;
+}
+.bg-white{
+	background-color:white;
+	height:40%;
+	width:39%;	
+}
+.bg-chico-white{
+	height:500px;
+	width:100px;
+}
+.bg-purple{
+	height:80px;
+	width:200px;
+	background-color: #21084F;/*azul marino*/
+	color:white;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.bg-griss{
+	height:80px;
+	width:200px;
+	background-color: lightgrey;
+}
+.bg-azull{
+	background-color: #4E60EB;/*azul claro*/
+	height:80px;
+	width:200px;
+	color:white;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.input-msg{
+	height:100px;
+	width:400px;
+	margin-left: 20%;
+	opacity: 0.05;		
+}
+.input-email{
+	height:40px;
+	width: 400px;
+	margin-left: 20%;
+	opacity: 0.05;  	
+}
+.gris{
+	background-color: rgb(244, 244, 244);
+	width:110%;
+	height:2000%;
 }
