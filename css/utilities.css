@@ -91,3 +91,12 @@ strong {
 .pull-right {
 	float: right;
 }
+.top{
+	margin-top: 15%;
+	
+}
+.bgF{
+	background-color:#423D3D;
+	padding: 2%;
+
+}
